@@ -7,7 +7,7 @@ The goal of this layer is to make it easier to develop with rustforlinux..
 # Usage
 
 - git clone -b kirkstone git://git.yoctoproject.org/poky.git
-- git clone https://github.com/Rust-for-Linux
+- git clone https://github.com/Rust-for-Linux /data/linux-yocto # for local modification
 - See https://github.com/Rust-for-Linux/linux/blob/rust/Documentation/rust/quick-start.rst (rustforlinux quickstart) for rustc and bindgen requiremtns
 
 - source poky/oe-init-build-env
@@ -27,5 +27,4 @@ MACHINE_ESSENTIAL_EXTRA_RRECOMMENDS += "kernel-modules"
 
 
 # Something
-
 - LIBCLANG_PATH see https://rust-lang.github.io/rust-bindgen/requirements.html
